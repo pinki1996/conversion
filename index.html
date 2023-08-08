@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-3</title>
+</head>
+
+<body>
+    <h1>Project-3</h1>
+    <h2>Perform 3 conversion</h2>
+    <ol>
+        <li>Celsius to Fahrenheit</li>
+        <p>
+            <label>Celsius</label>
+            <input id="inputFahrenheit" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)"
+                onchange="temperatureConverter(this.value)">
+        </p>
+        <p>Fahrenheit: <span id="outputCelcius"></span></p>
+
+        <li>Kilograms to Pounds</li>
+        <p>
+            <label>Kilograms</label>
+            <input id="inputkilograms" type="number" placeholder="Kilograms" oninput="gramConverter(this.value)"
+                onchange="gramConverter(this.value)">
+        </p>
+        <p>Fahrenheit: <span id="outputpounds"></span></p>
+        <li>Feet to centimeters</li>
+        <p>
+            <label>Feet</label>
+            <input id="inputFeet" type="number" placeholder="Feet" oninput="feetConverter(this.value)"
+                onchange="feetConverter(this.value)">
+        </p>
+        <p>Centimeter: <span id="outputCentimeter"></span></p>
+    </ol>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
